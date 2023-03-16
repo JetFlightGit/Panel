@@ -52,10 +52,12 @@
   --color-primary-900: 30, 58, 138;
 }
 
-light{
+lightMode{
 
 }
 
-dark{
-
+darkMode{
+  --color-text-component: var(--color-gray-800);
+  --color-foreground: var(--color-gray-800);
+  --color-input: var(--color-gray-900);
 }

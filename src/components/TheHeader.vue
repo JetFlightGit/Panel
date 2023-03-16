@@ -1,8 +1,8 @@
 <template>
   <nav class="top-bar">
-    <ul class="flex justify-between p-4 m-1 theme-blue">
-      <li>
-        <router-link to="/" class="hover:text-yellow-300">
+    <ul class="flex justify-between p-4 m-1 ">
+      <li class="">
+        <router-link to="/">
           Home
         </router-link>
       </li>
