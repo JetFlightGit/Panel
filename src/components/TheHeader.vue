@@ -1,8 +1,8 @@
 import { isDark } from '~/composables'
 
 <template>
-  <nav class="top-bar">
-    <ul class="flex justify-between p-4 m-1 ">
+  <nav class="bg-foreground pl-4 pr-4 h-5rem w-100% flex items-center shadow">
+    <ul class=" flex justify-between p-4 m-1 gap-3">
       <li class="">
         <router-link to="/">
           Home
@@ -14,7 +14,9 @@ import { isDark } from '~/composables'
         </router-link>
       </li>
       <li>
-        {{ isDark }}
+        <button icon-btn @click="toggleDark()">
+          <div dark:i-carbon-moon i-carbon-sun />
+        </button>
       </li>
     </ul>
   </nav>

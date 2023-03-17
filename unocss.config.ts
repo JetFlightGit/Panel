@@ -30,6 +30,20 @@ export default defineConfig({
   // ],
   theme: {
     colors: {
+
+      gray: {
+        50: 'rgb(var(--color-gray-50))',
+        100: 'rgb(var(--color-gray-100))',
+        200: 'rgb(var(--color-gray-200))',
+        300: 'rgb(var(--color-gray-300))',
+        400: 'rgb(var(--color-gray-400))',
+        500: 'rgb(var(--color-gray-500))',
+        600: 'rgb(var(--color-gray-600))',
+        700: 'rgb(var(--color-gray-700))',
+        800: 'rgb(var(--color-gray-800))',
+        900: 'rgb(var(--color-gray-900))',
+      },
+
       normal: 'rgb(var(--normal))',
       muted: 'rgb(var(--muted))',
       highlighted: 'rgb(var(--highlighted))',
@@ -41,7 +55,7 @@ export default defineConfig({
       foreground: 'rgb(var(--foreground))',
       input: 'rgb(var(--input))',
 
-      primary: 'var(--color-primary)',
+      primary: 'rgb(var(--color-primary))',
     },
   },
 })
