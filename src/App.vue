@@ -7,19 +7,19 @@ import { isDark } from '~/composables'
       'light-theme': !isDark,
       'dark-theme': isDark,
     }"
-    class="h-100vh flex flex-col theme-yellow gray-neutral color-normal bg-background"
+    class="h-screen flex flex-col theme-yellow gray-neutral color-normal bg-background"
   >
     <!-- NavBar -->
-    <header class="bg-foreground flex-initial relative">
+    <header class="flex flex-col bg-foreground relative h-5rem">
       <TheHeader />
     </header>
 
     <!-- Main Content -->
-    <div class="flex-auto flex w-100%">
-      <aside class="bg-foreground flex-initial w-80px">
+    <div class="flex-auto flex w-100% overflow-hidden">
+      <aside class="bg-foreground flex-none w-80px">
         <TheSidebar />
       </aside>
-      <main class="bg-background flex w-100% flex-col mt-20 pl-10 pr-10 pb-10">
+      <main class="bg-background flex w-100% flex-col pt-10 pl-10 pr-10 overflow-auto">
         <RouterView class=" flex-grow" />
         <TheFooter class=" flex-none" />
       </main>
