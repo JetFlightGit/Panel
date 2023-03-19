@@ -1,7 +1,7 @@
 import { isDark } from '~/composables'
 
 <template>
-  <nav class="bg-foreground pl-4 pr-4  w-100% flex justify-center items-center shadow-lg">
+  <nav class="bg-foreground pl-4 pr-4 h100 w-100% flex justify-center items-center shadow-lg">
     <ul class=" flex h100% items-center flex-grow p-4 m-1 gap-3">
       <li>
         <button class="icon-center">
