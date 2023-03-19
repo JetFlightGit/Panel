@@ -16,7 +16,7 @@ import { isDark } from '~/composables'
 
     <!-- Main Content -->
     <div class="flex-auto flex w-100% overflow-hidden">
-      <aside class="bg-foreground flex-none w-80px">
+      <aside class="bg-foreground flex-none w-80px overflow-hidden">
         <TheSidebar />
       </aside>
       <main class="bg-background flex w-100% flex-col pt-10 pl-10 pr-10 overflow-auto">
