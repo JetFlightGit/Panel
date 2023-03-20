@@ -1,5 +1,3 @@
-import { isDark } from '~/composables'
-
 <template>
   <div
     text="center"
